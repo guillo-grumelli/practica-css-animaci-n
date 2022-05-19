@@ -1,0 +1,41 @@
+.box {
+    width: 150px;
+    height:150px ;
+    background: red;
+    position: fixed;
+    transition: width 4s, ease-in-out 1s, background 3s;
+    transform: rotate(45deg) ;
+    
+    
+    
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.box:hover{
+    background-color: blue;
+    width: 300px;
+    border-radius: 20px;
+   
+    
+   
+}
+
+/* Transiciones: 
+
+transition-property: width;
+
+transition-duration: 2s;
+
+transition-timing-function: linear;
+
+transition: background 5s;
+
+transition: width 4s, ease-in-out 1s, background 3s, rotate 45deg;
